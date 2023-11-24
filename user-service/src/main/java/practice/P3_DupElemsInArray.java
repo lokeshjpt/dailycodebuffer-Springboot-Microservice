@@ -3,7 +3,6 @@ package practice;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.stream.IntStream;
 
 public class P3_DupElemsInArray {
     public static void main(String[] args) {
