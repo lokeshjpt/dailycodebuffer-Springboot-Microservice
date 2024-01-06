@@ -22,16 +22,11 @@ public class P5_StringReverse {
         char[] chars = s.toCharArray();
         int i = 0;
         int j = s.length() - 1;
-        boolean isPalindrome = false;
         while (i < j) {
-            if(chars[i] == chars[j]) {
-                isPalindrome = true;
-            } else {
-                isPalindrome = false;
-            }
+            if(chars[i] != chars[j]) return false;
             i++;j--;
         }
-        return isPalindrome;
+        return true;
     }
     
 }
